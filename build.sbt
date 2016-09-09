@@ -16,7 +16,8 @@ libraryDependencies ++= Seq(
   "edu.stanford.nlp" % "stanford-corenlp" % "3.5.0",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.5.0" classifier "models",
   "uk.ac.gate" % "gate-core" % "8.1",
-  "org.javassist" % "javassist" % "3.18.2-GA"
+  "org.javassist" % "javassist" % "3.18.2-GA",
+  resolvers += Resolver.url("Typesafe Ivy releases", url("https://repo.typesafe.com/typesafe/ivy-releases"))(Resolver.ivyStylePatterns)
 )
 
 
